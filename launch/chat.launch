@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tricat_tutorials" type="talker.py" name="talk"/>
+    <node pkg="tricat_tutorials" type="listener.py" name="listen"/>
+</launch>
